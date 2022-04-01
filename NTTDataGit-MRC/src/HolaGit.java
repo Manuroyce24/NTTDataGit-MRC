@@ -8,6 +8,8 @@ public class HolaGit {
 		
 		System.out.println("Hola Manu");
 		
+		System.out.println("Hola Alejandro");
+		
 	}
 
 }
