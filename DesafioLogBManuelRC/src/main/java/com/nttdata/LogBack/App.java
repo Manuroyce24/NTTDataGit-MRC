@@ -1,4 +1,5 @@
 package com.nttdata.LogBack;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +19,7 @@ public class App {
 
 	/**
 	 * 
-	 * Comprueba que el nombre este relleno.
+	 * Usamos logger.
 	 * 
 	 * @param args
 	 * 
@@ -26,7 +27,7 @@ public class App {
 
 	public static void main(String[] args) {
 
-		// Se introduce nombre
+		// Realiza un bucle para que se cree un archivo que se pueda dividir
 
 		int contador = 0;
 
