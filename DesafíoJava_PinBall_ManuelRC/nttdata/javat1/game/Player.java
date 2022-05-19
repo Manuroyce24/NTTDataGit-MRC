@@ -7,26 +7,26 @@ package nttdata.javat1.game;
  */
 public class Player {
 
-	private String nombre;
+	private String name;
 
 	protected Player() {
 
 		// Se define un nombre para el jugador
 
-		this.nombre = "Manu";
+		this.name = "Manu";
 
 	}
 
-	protected String getNombre() {
-		return nombre;
+	protected String getName() {
+		return name;
 	}
 
-	protected void setNombre(String nombre) {
-		this.nombre = nombre;
+	protected void setname(String name) {
+		this.name = name;
 	}
 
 	@Override
 	public String toString() {
-		return "Jugador: " + nombre + "\n";
+		return "Jugador: " + name + "\n";
 	}
 }
