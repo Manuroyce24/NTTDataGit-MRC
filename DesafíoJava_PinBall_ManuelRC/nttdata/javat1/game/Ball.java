@@ -18,19 +18,19 @@ public class Ball {
 
 	}
 
-	public int getWeight() {
+	protected int getWeight() {
 		return weight;
 	}
 
-	public void setWeight(int weight) {
+	protected void setWeight(int weight) {
 		this.weight = weight;
 	}
 
-	public String getGames() {
+	protected String getGames() {
 		return games;
 	}
 
-	public void setGames(String games) {
+	protected void setGames(String games) {
 		this.games = games;
 	}
 

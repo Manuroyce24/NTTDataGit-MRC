@@ -17,11 +17,11 @@ public class Player {
 
 	}
 
-	public String getNombre() {
+	protected String getNombre() {
 		return nombre;
 	}
 
-	public void setNombre(String nombre) {
+	protected void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 

@@ -16,14 +16,14 @@ public class Score extends Bounces {
 	 * Se crea un contructor para utilizar los puntos segun los rebotes
 	 * 
 	 */
-	public Score() {
+	protected Score() {
 
 		super();
 		this.points = setPoints(super.getNumber());
 
 	}
 
-	public int getPoints() {
+	protected int getPoints() {
 		return points;
 	}
 
@@ -33,10 +33,8 @@ public class Score extends Bounces {
 	 * rangos segun los rebotes
 	 * 
 	 */
-	public int setPoints(int number) {
 
-		// Se asigna un valor a cada rango de rebote ya que estos no siempre puntuan
-		// igual.
+	protected int setPoints(int number) {
 
 		switch (number) {
 		case 1:
